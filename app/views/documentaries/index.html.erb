@@ -1,0 +1,8 @@
+<h1>Documentaries#index</h1>
+<br>
+<h1>Mostrando todos los Documentales</h1>
+<% @documentaryfilm.each do |p| %>
+<h2><%= p.name %></h2>
+<p><%= p.synopsis %></p>
+<p><%= p.director %></p>
+<% end%>

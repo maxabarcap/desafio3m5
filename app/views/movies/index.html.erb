@@ -1,0 +1,8 @@
+<h1>Movies#index</h1>
+<br>
+<h1>Mostrando todos las Peliculas</h1>
+<% @movie.each do |p| %>
+<h2><%= p.name %></h2>
+<p><%= p.synopsis %></p>
+<p><%= p.director %></p>
+<% end%>
